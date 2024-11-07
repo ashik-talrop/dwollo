@@ -968,5 +968,10 @@ div.diss > p{
     }
     .chooseus .cards .card {
         width: 400px;
-
+    }
+    body > div:nth-child(3) > section.chooseus{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
