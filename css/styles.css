@@ -22,7 +22,7 @@ body{
 	font-family: "Montserrat";
 }
 .wrapper{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     max-width: 1325px;
 }
@@ -70,7 +70,8 @@ button{
 
 
 .bg-clr .nav .middle a p { 
-    font-weight: 700;
+	font-family: "Montserrat-bold";
+
 }
 
 .bg-clr .nav .right { 
@@ -80,7 +81,6 @@ button{
     align-items: center;
 
 }
-
 
 .bg-clr .nav .right button { 
     color: #fff;
@@ -94,7 +94,7 @@ button{
 
 .home .left { 
     margin-top: 140px;
-    width: 600px;
+    width: 785px;
 }
 
 .home .left h1 { 
@@ -120,17 +120,14 @@ button{
     border-radius: 6px;
 }
 
-.home .right { 
-    width: 725px;
+.home .right {
+    width: 1050px;   
 }
-
-.home .right img { 
+.home .right img {
     width: 100%;
-    height: 100%;
-    display:block ;
 }
 
- .bottom { 
+.bottom { 
     position: absolute;
     display: flex;
     background-color: #DDC7BB;
@@ -152,7 +149,7 @@ button{
     background-color:#FBF5F1;
     font-size: 18px;
     color: #695346;
-    padding: 10px 20px;
+    padding: 18px 20px;
     border-radius: 8px;
     font-weight: 700;
     width: 252px;
@@ -162,7 +159,7 @@ button{
 
 .bottom .location .icon1 { 
     position: absolute;
-    top: 10px;
+    top: 18px;
     right: 10px;
 }
 
@@ -173,7 +170,7 @@ button{
 
 .bottom .type .icon1 { 
     position: absolute;
-    top: 10px;
+    top: 18px;
     right: 10px;
 }
 
@@ -184,14 +181,14 @@ button{
 
 .bottom .prize .icon1 { 
     position: absolute;
-    top: 10px;
+    top: 18px;
     right: 10px;
 
 }
 
 .bottom button { 
     color: #fff;
-    padding: 10px 44px;
+    padding: 18px 43px;
     background-color: #2B1B12;
     border-radius: 6px;
 }
@@ -279,9 +276,14 @@ button{
 }
 
 .chooseus .cards { 
-    display: flex;
+    display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 16px;
+grid-row-gap: 16px;
+    
     margin-top: 70px;
-    justify-content: space-between;
+   
     margin-bottom: 70px;
 
 }
@@ -291,7 +293,7 @@ button{
     width: 275px;
     height: 268px;
     border-radius: 18px;
-    padding: 20px;
+    padding: 30px 24px 37px;
 
 }
 
@@ -646,6 +648,10 @@ div.diss > p{
     margin-top: 1.5px;    
 
 }
+.contact .iinput .mail input:focus {
+    outline: none;
+    border: none;
+  }
 .contact .iinput .mail input::placeholder{
     color: #2B1B12;
 	font-family: "Montserrat";
@@ -804,6 +810,7 @@ div.diss > p{
     font-size: 18px;
     font-weight: 700;
     color: #4F3527;
+    display: flex;
 }
 
 .footer .sec-5 .fb { 
@@ -821,6 +828,8 @@ div.diss > p{
     font-size: 18px;
     font-weight: 700;
     color: #4F3527;
+    display: flex;
+
 }
 
 .footer .sec-5  .x { 
@@ -829,7 +838,7 @@ div.diss > p{
 }
 
 .footer .sec-5  .x img { 
-    margin-right: 30px;
+    margin-right: 10px;
 
 }
 
@@ -837,4 +846,127 @@ div.diss > p{
     font-size: 18px;
     font-weight: 700;
     color: #4F3527;
+    display: flex;
+
+}
+@media all and (max-width: 1380px){
+    .wrapper{
+        width: 90%;
+    }
+    .bottom {
+        left: 140px;
+    }
+    /* .asset .left {
+        width: 560px;
+    }
+    .chooseus .cards .card{
+        width: 258px;
+    } */
+}
+@media all and (max-width: 1280px){
+    .bg-clr{
+        height: 831px;
+    }
+    .bottom {
+        left: 104px;
+    }
+    #listing .cards .card{
+        width: 375px;
+    }
+    #reviews .cards .card {
+        width: 363px;
+    }
+}
+@media all and (max-width: 1080px){
+    .bg-clr{
+        height: 813px;
+    }
+    .bottom{
+        width: 943px;
+        left: 69px;
+    }
+    .bottom input {
+        width: 235px;
+    }
+    .bottom{
+        height: 132px;
+        bottom: -64px;
+    }
+    body > section.wrapper > div > div.right{
+            width: 435px;
+    }
+    
+    .asset .right h3 {
+        width: 433px;
+    }
+
+    .asset .right .sub {
+        width: 421px;
+    }
+    .asset .left {
+        width: 509px;
+    }
+    .chooseus .cards .card{
+        width: 235px;
+    }
+    #listing > div > div:nth-child(3){
+        display: none;
+    }
+    #listing .cards {
+        justify-content: space-around;
+    }
+    #reviews > div > div.cards > div:nth-child(3){
+        display: none;
+    }
+    #reviews .cards{
+        justify-content: space-around;
+    }
+}
+@media all and (max-width: 980px){
+    body > div.bg-clr > section.nav.wrapper > div.right > a div > img{
+        display: none;
+    }
+    .home .left{
+        width: 613px;
+    }
+    .home .right {
+        display: none;
+    }
+    .home .right img {
+        display: none;
+    }
+    .bottom {
+        left: 42px;
+        width: 896px;
+    }
+    .bottom input {
+        width: 216px;
+    }
+    .asset .right h3 {
+        width: 289px;
+        margin-bottom: 22px;
+    }
+    .asset .right .sub {
+        width: 317px;
+        margin-bottom: 18px;
+    }
+    body > section.wrapper > div > div.right {
+        width: 349px;
+    }
+    .asset .left {
+        width: 475px;
+        height: 332px;
+    }
+    .asset .left img{
+        margin-top: 30px;
+    }
+    .asset .right .achive h2{
+        text-align: center;
+    }
+    .chooseus .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .chooseus .cards .card {
+        width: 400px;
+
 }
