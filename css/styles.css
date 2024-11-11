@@ -849,6 +849,30 @@ div.diss > p{
     display: flex;
 
 }
+body > div.bg-clr > section.nav.wrapper > div.ham{
+    display: none;
+}
+@media all and (max-width: 1400px){
+    .bg-clr {
+        height: 860px;
+    }
+    .asset .left {
+        width: 551px;
+    }
+    #listing .cards .card {
+        width: 366px;
+    }
+    #listing .cards .card .img-bottom .capacity p {
+        margin-right: 41px;
+    }
+    #reviews .cards .card {
+        width: 364px;
+    }
+    .bottom {
+        left: 170px;
+    }
+}
+
 @media all and (max-width: 1380px){
     .wrapper{
         width: 90%;
@@ -856,12 +880,6 @@ div.diss > p{
     .bottom {
         left: 140px;
     }
-    /* .asset .left {
-        width: 560px;
-    }
-    .chooseus .cards .card{
-        width: 258px;
-    } */
 }
 @media all and (max-width: 1280px){
     .bg-clr{
@@ -973,5 +991,346 @@ div.diss > p{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+}
+@media all and (max-width: 768px){
+    .bottom {
+        width: 695px;
+    }
+    .chooseus .cards .card {
+        width: 337px;
+    }
+    .bottom input {
+        width: 175px;
+        padding: 16px 23px;
+
+    }
+    .bottom button {
+        padding: 16px 23px;
+        
+    }
+    .asset{
+        flex-direction: column;
+        align-items: center;
+        height: 718px;
+    }
+    body > section.wrapper > div > div.right {
+        width: 476px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .asset .right h3 {
+        width: 443px;
+    }
+    .asset .right .sub {
+        width: 443px;
+    }
+    .asset .right h3 {
+        text-align: center;
+    }
+    .asset .right .sub {
+        text-align: center;
+    }
+    .asset .right .achive{
+        width: 441px;
+    }
+    #listing .cards .card {
+        width: 333px;
+    }
+    #listing .cards .card .img-bottom .capacity p {
+        margin-right: 25px;
+    }
+    #reviews .cards .card {
+        width: 328px;
+    }
+    div.diss > p {
+        width: 288px;
+    }
+    #listing {
+        margin-top: 75px;
+    }
+    #reviews .cards .card .card-bottom .pro .name h6 {
+        width: 192px;
+    }
+    #reviews > div > div.cards > div > div.card-bottom > div.pro > div.name > div{
+        width: 213px;
+    }
+    .footer .sec-1 p{
+        width: 147px;
+    }
+}
+@media all and (max-width: 640px){
+    .bg-clr .nav .middle{
+        display: none;
+    }
+    .bg-clr .nav .right{
+        display: none;
+    }
+    body > div.bg-clr > section.nav.wrapper > div.ham{
+        display: block;
+    }
+    .chooseus .cards .card {
+        width: 280px;
+    }
+    .bottom {
+        width: 475px;
+        flex-direction: column;
+        height: 310px;
+        bottom: -150px;
+        left: 83px;
+    }
+   
+    .bottom input {
+        width: 250px;
+    }
+    .bottom button {
+        padding: 16px 95px;
+        margin-bottom: 15px;
+    }
+    .bottom .location{
+        margin-top: 15px;
+    }
+    #listing > div > div:nth-child(2){
+        display: none;
+    }
+    #listing .cards .card {
+        width: 383px;
+    }
+    #reviews .cards .card {
+        width: 275px;
+    }
+    div.diss > p {
+        width: 235px;
+    }
+    #reviews .cards {
+        height: 449px;
+    }
+    #reviews .cards .card {
+        height: 448px;
+    }
+    #reviews .cards .card .card-bottom {
+        height: 279px;
+    }
+    #reviews > div > div.cards > div > div.card-bottom > div.pro > div.name > div {
+        width: 187px;
+    }
+    #reviews .cards .card .card-bottom .pro .dp {
+        margin-right: 5px;
+    }
+    .heading h2{
+        margin-bottom: 50px;
+    }
+    body > section.blr > div > div > div.sec-2 > a:nth-child(2){
+        display: none;
+    }
+    body > section.blr > div > div > div.sec-2 > a:nth-child(3){
+        display: none;
+    }
+    body > section.blr > div > div > div.sec-2 > a:nth-child(4){
+        display: none;
+    }
+    body > section.blr > div > div > div.sec-2 > a:nth-child(5){
+        display: none;
+    }
+    body > section.blr > div > div > div.sec-3 > a:nth-child(2){
+        display: none;
+    }
+    body > section.blr > div > div > div.sec-3 > a:nth-child(3){
+        display: none;
+    }
+    body > section.blr > div > div > div.sec-3 > a:nth-child(4){
+        display: none;
+    }
+    body > section.blr > div > div > div.sec-3 > a:nth-child(5){
+        display: none;
+    }
+    body > section.blr > div > div > div.sec-4 > a:nth-child(2){
+        display: none;
+    }
+    body > section.blr > div > div > div.sec-4 > a:nth-child(3){
+        display: none;
+    }
+    body > section.blr > div > div > div.sec-4 > a:nth-child(4){
+        display: none;
+    }
+    body > section.blr > div > div > div.sec-5 > div.insta{
+        display: none;
+    }
+    body > section.blr > div > div > div.sec-5 > div.fb{
+        display: none;
+    }
+    body > section.blr > div > div > div.sec-5 > div.x{
+        display: none;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .blr {
+        height: 500px;
+    }
+    .footer .sec-1 p {
+        width: 384px;
+        text-align: center;
+    }
+    .footer .sec-1{
+        align-items:center ;
+    }
+}
+@media all and (max-width: 480px){
+    .bottom{
+        width: 416px;
+        left: 33px;
+    }
+    .chooseus .cards .card {
+        width: 213px;
+    }
+    .chooseus .top .title {
+        width: 434px;
+    }
+    .contact .iinput {
+        flex-direction: column;
+    }
+    .contact .iinput .mail{
+        width: 433px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .bg-clr {
+        height: 908px;
+    }
+    .asset .left {
+        width: 431px;
+        height: 301px;
+    }
+    body > section.wrapper > div > div.right {
+        width: 432px;
+    }
+    .asset .right h3 {
+        width: 430px;
+    }
+    .asset .right .sub {
+        width: 421px;
+    }
+    .asset .right .achive {
+        width: 432px;
+    }
+    .chooseus .cards .card {
+        width: 207px;
+        height: 310px;
+    }
+    #reviews > div > div.cards > div:nth-child(2){
+        display: none;
+    }
+    #reviews .cards .card {
+        width: 357px;
+    }
+    .contact .iinput {
+        align-items: center;
+    }
+    div.diss > p {
+        width: 317px;
+    }
+    #reviews > div > div.cards > div > div.card-bottom > div.pro > div.name > div {
+        width: 222px;
+    }
+    #reviews .cards .card .card-bottom .pro .dp {
+        margin-right: 30px;
+    }
+    .contact .iinput{
+        margin-bottom: 50px;
+    }
+    .contact{
+        margin-top: 50px;
+    }
+    #listing h2 {
+        margin-bottom: 42px;
+    }
+    .chooseus .cards{
+        margin-bottom: 0px;
+    }
+}
+@media all and (max-width: 360px){
+    .bottom {
+        width: 312px;
+        left: 33px;
+    }
+    .home .left {
+        width: 325px;
+    }
+    .home .left h1 {
+        font-size: 62px;
+    }
+    .home .left p {
+        width: 325px;
+    }
+    .asset .left {
+        width: 321px;
+        height: 224px;
+    }   
+    body > section.wrapper > div > div.right {
+        width: 324px;
+    }
+    .asset .right h3 {
+        width: 324px;
+    }
+    .asset .right .sub {
+        width: 323px;
+    }
+    .asset .right .achive {
+        width: 324px;
+    }
+    .asset .right .achive h2 {
+        font-size: 40px;
+    }
+    .asset .right .achive p {
+        font-size: 12px;
+    }
+    .chooseus .cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .chooseus .top .title {
+        width: 323px;
+    }
+    .chooseus .top h2 {
+        font-size: 38px;
+    }
+    .chooseus .cards .card {
+        width: 274px;
+        height: 266px;
+    }
+    .contact .iinput .mail {
+        width: 316px;
+    }
+    #listing .cards .card .img-bottom .capacity p {
+        margin-right: 22px;
+    }
+    .heading h2 {
+        font-size: 33px;
+    }
+    #reviews .cards .card .card-bottom .pro .dp {
+        margin-right: 0px;
+    }
+    .footer .sec-1 p {
+        width: 325px;
+    }
+    .contact .head h1 {
+        font-size: 30px;
+    }
+    .contact .tick{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contact .tick .chat p {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .contact .tick .chat{
+        align-items: flex-start;
+    }
+    .asset {
+        height: 635px;
     }
 }
